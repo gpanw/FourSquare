@@ -142,7 +142,7 @@ class AddSquare extends Component {
 		let td_el = []
 		for (let i=0; i<col.length; i++){
 			td_el.push(	<td onClick = { this.clickButton }>
-							<button id={col[i]} name={col[i]}>{col[i]}</button>
+							<button id={col[i]} name={col[i]}>.</button>
 						</td>)
 		}
 		return td_el
