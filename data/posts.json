@@ -1,0 +1,30 @@
+[
+{
+	"id": 1,
+	"title": "First Post",
+	"content": "First json data for try reactjs",
+	"date": "2019-01-01",
+	"slug": "hello-world"
+},
+{
+	"id": 2,
+	"title": "Setup React",
+	"content": "Setting up ract first time",
+	"date": "2019-03-06",
+	"slug": "setup-react"
+},
+{
+	"id": 3,
+	"title": "Reverse Example",
+	"content": "A post to test reverse posts",
+	"date": "2019-07-01",
+	"slug": "reverse-example"
+},
+{
+	"id": 4,
+	"title": "One More Post",
+	"content": "One more post to test reverse",
+	"date": "2019-09-15",
+	"slug": "one-more-post"
+}
+]
