@@ -33,12 +33,14 @@ class AddSquare extends Component {
 				threat_el = neighbours[i]
 			}
 		}
-		console.log('before ', threat_el)
+		//console.log('before ', threat_el)
 		threat_el = this.counter_attack(new_grid, threat_el)
-		console.log('threat at ', threat_el)
-		new_grid[threat_el] = 0
-		let target_el_id = document.getElementById(threat_el)
-		target_el_id.style.backgroundColor = 'blue'
+		//console.log('threat at ', threat_el)
+		if (threat_el !== null){
+			new_grid[threat_el] = 0
+			let target_el_id = document.getElementById(threat_el)
+			target_el_id.style.backgroundColor = 'blue'
+		}
 		update_grid(new_grid)
 	}
 
