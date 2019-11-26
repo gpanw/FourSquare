@@ -100,7 +100,7 @@ class AddSquare extends Component {
 
 
 	checkEl(el) {
-		if (el < 1 || el > 100) {
+		if (el < 1 || el > 99) {
 			return null	
 		}
 		return el
