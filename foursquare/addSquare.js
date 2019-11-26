@@ -40,6 +40,7 @@ class AddSquare extends Component {
 			new_grid[threat_el] = 0
 			let target_el_id = document.getElementById(threat_el)
 			target_el_id.style.backgroundColor = 'blue'
+			target_el_id.disabled = true
 		}
 		update_grid(new_grid)
 	}
